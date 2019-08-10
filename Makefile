@@ -1,4 +1,5 @@
-PREFIX?=/usr/local
+#PREFIX?=/usr/local
+PREFIX?=/root
 INSTALLDIR?=$(DESTDIR)$(PREFIX)
 
 install:
